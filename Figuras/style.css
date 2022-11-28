@@ -1,0 +1,21 @@
+ .figura1 {
+     height: 300px;
+     width: 300px;
+     background: linear-gradient(blue,yellow);
+     border-top-left-radius: 50px;
+     border-bottom-right-radius: 50px;
+ }
+
+ .figura2 {
+     height: 300px;
+     width: 300px;
+     border-radius: 50%;
+     background-color: #051105;
+ }
+
+ .figura3 {
+     height: 300px;
+     width: 800px;
+     border-radius: 150px;
+     background: radial-gradient(yellow,green);
+ }

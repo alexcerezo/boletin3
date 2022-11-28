@@ -1,0 +1,32 @@
+.arriba {
+    height: 10%;
+    width: 100%;
+    background-color: red;
+}
+
+.columnaizquierda {
+    height: 70%;
+    width: 20%;
+    display: inline-block;
+    background-color: yellow;
+}
+
+.centro {
+    height: 70%;
+    width: 60%;
+    display: inline-block;
+    background-color: blue;
+}
+
+.columnaderecha {
+    height: 70%;
+    width: 20%;
+    display: inline-block;
+    background-color: green;
+}
+
+.abajo{
+    height: 20%;
+    width: 100%;
+    background-color: beige;
+}

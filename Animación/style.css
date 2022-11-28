@@ -1,0 +1,37 @@
+.caja {
+    animation-name: bola;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+
+}
+
+@keyframes bola {
+    from {
+        background-color: red;
+        transform: translate(-150%,-50%);
+        height: 300px;
+        width: 300px;
+    }
+
+    50% {
+        background-color: black;
+        transform: translate(50%,-50%);
+        height: 400px;
+        width: 400px;
+    }
+
+    to {
+        background-color: red;
+        transform: translate(-150%,-50%);
+        height: 300px;
+        width: 300px;
+    }
+}
